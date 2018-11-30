@@ -1,6 +1,6 @@
-# Flexbox - learning form the Advanced CSS and Sass course from Udemy by Jonas Schmedtmann
+# Flexbox 
 
-Following along with the course content - to build up flexbox skills and knowledge.
+learning form the Advanced CSS and Sass course from Udemy by Jonas Schmedtmann. Following along with the course content - to build up flexbox skills and knowledge.
 
 ## Core Concepts
 
