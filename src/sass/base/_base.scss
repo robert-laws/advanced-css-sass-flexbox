@@ -1,3 +1,7 @@
 h1 {
   color: $color-primary;
 }
+
+.container {
+  clip-path: polygon(0 0);
+}
