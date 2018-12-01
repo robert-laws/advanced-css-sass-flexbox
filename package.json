@@ -1,0 +1,34 @@
+{
+  "name": "advanced-css-sass-flexbox",
+  "version": "1.0.0",
+  "description": "Project featuring flexbox",
+  "main": "gulpfile.js",
+  "scripts": {
+    "default": "gulp default",
+    "clean": "gulp clean",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-laws/advanced-css-sass-flexbox.git"
+  },
+  "keywords": [
+    "flexbox",
+    "css",
+    "sass"
+  ],
+  "author": "Robert Laws",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-laws/advanced-css-sass-flexbox/issues"
+  },
+  "homepage": "https://github.com/robert-laws/advanced-css-sass-flexbox#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
