@@ -1,3 +1,12 @@
-// base
-@import "base/variables";
+// abstracts
+@import "abstracts/variables";
+@import "abstracts/colors";
+
+// BASE
 @import "base/base";
+
+// LAYOUT
+// @import "layout/layout";
+
+// COMPONENTS
+// @import "components/"
