@@ -4,9 +4,10 @@ html
     title Flexbox - Advanced CSS and Sass
     include ../includes/head.pug
   body
-    include ../includes/header.pug
+    .container
+      include ../includes/header.pug
 
-    main
-      block content
+      .content
+        block content
 
-    include ../includes/footer.pug
+      //- include ../includes/footer.pug
