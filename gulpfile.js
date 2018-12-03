@@ -21,7 +21,7 @@ var paths = {
     dest: "build/scripts"
   },
   images: {
-    src: ["src/images/**/*.jpg", "src/images/**/*.JPG", "src/images/**/*.png", "src/images/**/*.ico"],
+    src: ["src/images/**/*.jpg", "src/images/**/*.JPG", "src/images/**/*.png", "src/images/**/*.ico", "src/images/**/*.svg"],
     dest: "build/img"
   }
 }
