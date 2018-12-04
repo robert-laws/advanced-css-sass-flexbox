@@ -11,6 +11,10 @@
   height: 7rem;
   background-color: #FFF;
   border-bottom: var(--color-site-grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
