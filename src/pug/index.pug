@@ -2,5 +2,58 @@ extends layouts/default.pug
 
 block content
   include includes/navigation.pug
-  
-  main.hotel-view Hotel View
+
+  main.hotel-view
+    .gallery
+      figure.gallery__item
+        img(src="img/stock-1.jpg" alt="Photo of Item 1").gallery__photo
+      figure.gallery__item
+        img(src="img/stock-2.jpg" alt="Photo of Item 2").gallery__photo
+      figure.gallery__item
+        img(src="img/stock-3.jpg" alt="Photo of Item 3").gallery__photo
+
+    .overview
+      h1.overview__heading Hotel Oceanview
+      .overview__stars
+        svg.overview__icon-star
+          use(xlink:href="img/sprite.svg#icon-star")
+        svg.overview__icon-star
+          use(xlink:href="img/sprite.svg#icon-star")
+        svg.overview__icon-star
+          use(xlink:href="img/sprite.svg#icon-star")
+        svg.overview__icon-star
+          use(xlink:href="img/sprite.svg#icon-star")
+        svg.overview__icon-star
+          use(xlink:href="img/sprite.svg#icon-star")
+      .overview__location
+        svg.overview__icon-location
+          use(xlink:href="img/sprite.svg#icon-location-pin")
+        button.btn-inline San Diego, California
+      .overview__rating
+        .overview__rating-average 8.5
+        .overview__rating-count 345 votes
+
+    .detail
+      .description
+        p.paragraph 
+          | Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio cupiditate debitis et quia ratione corrupti omnis suscipit rem velit ipsum.
+        p.paragraph
+          | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores fugit amet eos suscipit, debitis at sapiente quaerat odit facilis.
+        ul.list
+          li.list__item Close to the Ocean
+          li.list__item Fun Activities
+          li.list__item Free Dinners
+          li.list__item Nightly Beach Walks
+          li.list__item Free wifi in Rooms
+          li.list__item Air conditioning and heating
+          li.list__item Pets are allowed
+          li.list__item Custom schedules available
+        .recommend
+          p.recommend__count
+            | Bob and 3 other friend recommend this hotel.
+          p.recommend__friends
+            img.recommend__photo(src="img/rdl.jpg")
+            img.recommend__photo(src="img/rdl.jpg")
+            img.recommend__photo(src="img/rdl.jpg")
+            img.recommend__photo(src="img/rdl.jpg")
+      .user-reviews User Reviews
