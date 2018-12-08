@@ -56,4 +56,30 @@ block content
             img.recommend__photo(src="img/rdl.jpg")
             img.recommend__photo(src="img/rdl.jpg")
             img.recommend__photo(src="img/rdl.jpg")
-      .user-reviews User Reviews
+      .user-reviews
+        figure.review
+          blockquote.review__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci architecto eos illo fugit minus! Nihil, ducimus.
+          figcaption.review__user
+            img(src="img/rdl.jpg" alt="User 1").review__photo
+            .review__user-box
+              p.review__user-name Bob Cobb
+              p.review__user-date March 12, 2018
+            .review__rating 8.4
+        figure.review
+          blockquote.review__text
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse pariatur sed provident nostrum ad.
+          figcaption.review__user
+            img(src="img/rdl.jpg" alt="User 1").review__photo
+            .review__user-box
+              p.review__user-name Hal Hope
+              p.review__user-date June 18, 2018
+            .review__rating 7.7
+        button.btn-inline 
+          | Show all 
+          span &rarr;
+    .cta
+      h2.cta__book-now Good news! We have 4 free rooms for your selected dates!
+      button.btn
+        span.btn__visible Book now
+        span.btn__invisible Only 4 rooms left
